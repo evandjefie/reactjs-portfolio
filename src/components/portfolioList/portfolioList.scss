@@ -1,0 +1,26 @@
+@import "../../global.scss";
+
+.portfolioList{
+    font-size: 14px;
+    margin-right: 50px;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #000;
+
+    @include mobile{
+        margin: 20px;
+        width: 100px;
+    }
+
+    &:hover{
+        font-weight: 300;
+    }
+
+    &.active{
+        background-color: $mainColor;
+        color: white;
+    }
+}
