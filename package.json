@@ -1,7 +1,6 @@
 {
   //Add Home page
   "homepage": "http://evandjefie.github.io/reactjs-portfolio/",
-
   "name": "myportofolio",
   "version": "0.1.0",
   "private": true,
@@ -19,11 +18,10 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^1.1.2"
   },
+  //Add deploy script
   "scripts": {
-    //Add deploy script
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-
+    "deploy": "gh-pages -dd build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

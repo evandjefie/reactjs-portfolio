@@ -1,0 +1,7 @@
+#Change package.json:
+add  "homepage": "http://evandjefie.github.io/reactjs-portfolio/",
+add "predeploy": "npm run build",
+    "deploy": "gh-pages -dd build",
+
+#Deploy app
+npm run deploy
